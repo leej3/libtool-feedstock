@@ -5,7 +5,7 @@ Home: http://www.gnu.org/software/libtool/
 
 Package license: GPL 3
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: The GNU Portable Library Tool
 
@@ -72,6 +72,11 @@ Current build status
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/libtool-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/libtool-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/libtool-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/libtool-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/libtool-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/libtool-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/libtool/badges/version.svg)](https://anaconda.org/conda-forge/libtool)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/libtool/badges/downloads.svg)](https://anaconda.org/conda-forge/libtool)
 
 
 Updating libtool-feedstock
