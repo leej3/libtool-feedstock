@@ -69,6 +69,7 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/libtool-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/libtool-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/libtool-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/libtool-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/libtool-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/libtool-feedstock/branch/master)
