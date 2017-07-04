@@ -15,8 +15,7 @@ build:
 
 requirements:
     build:
-        - automake
-        - autoconf
+        - {{ compiler('c') }}
 
 test:
     commands:
@@ -32,3 +31,4 @@ extra:
         - ocefpaf
         - msarahan
         - jakirkham
+        - mingwandroid
