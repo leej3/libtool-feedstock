@@ -2,7 +2,7 @@
 
 ./configure --prefix=${PREFIX}
 
-make
+make -j${CPU_COUNT} ${VERBOSE_AT}
 if ! make check; then
   FAILURES=$(cat tests/testsuite.log | grep FAILED | wc -l | awk '{print $1}')
   if [[ ${FAILURES} > 5 ]]; then
