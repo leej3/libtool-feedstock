@@ -1,0 +1,32 @@
+diff --git a/build-aux/ltmain.in b/build-aux/ltmain.in
+index 0bf3848246321707ac514bb6566691c31aa4f08c..ec8e8d621cbad18b0769f2d32168f137a2765da2 100644
+--- a/build-aux/ltmain.in
++++ b/build-aux/ltmain.in
+@@ -5308,6 +5308,11 @@
+ 	arg=$func_stripname_result
+ 	;;
+ 
++      -Wl,--as-needed)
++	deplibs="$deplibs $arg"
++	continue
++	;;
++
+       -Wl,*)
+ 	func_stripname '-Wl,' '' "$arg"
+ 	args=$func_stripname_result
+@@ -5692,6 +5697,15 @@
+ 	lib=
+ 	found=false
+ 	case $deplib in
++	-Wl,--as-needed)
++	  if test link = "$pass"; then
++	    compile_deplibs="$deplib $compile_deplibs"
++	    finalize_deplibs="$deplib $finalize_deplibs"
++	  else
++	    deplibs="$deplib $deplibs"
++	  fi
++	  continue
++	  ;;
+ 	-mt|-mthreads|-kthread|-Kthread|-pthread|-pthreads|--thread-safe \
+         |-threads|-fopenmp|-openmp|-mp|-xopenmp|-omp|-qsmp=*)
+ 	  if test prog,link = "$linkmode,$pass"; then
