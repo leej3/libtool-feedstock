@@ -15,7 +15,7 @@ source:
         - 0001-link-as-needed.patch
 
 build:
-    number: 2
+    number: 3
     skip: True  # [win]
 
 requirements:
