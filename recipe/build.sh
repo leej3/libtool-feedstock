@@ -1,5 +1,7 @@
 #!/bin/sh
 
+export HELP2MAN=$(which true)
+
 ./configure --prefix=${PREFIX}
 
 make -j${CPU_COUNT} ${VERBOSE_AT}
