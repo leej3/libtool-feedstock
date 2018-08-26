@@ -1,6 +1,7 @@
 #!/bin/sh
 
 export HELP2MAN=$(which true)
+export M4=m4
 
 ./configure --prefix=${PREFIX}
 
