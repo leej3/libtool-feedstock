@@ -24,6 +24,7 @@ requirements:
     - help2man
     - autoconf
     - automake
+    - make
 
 test:
   commands:
