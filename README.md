@@ -3,7 +3,7 @@ About libtool
 
 Home: http://www.gnu.org/software/libtool/
 
-Package license: GPL-3.0
+Package license: GPL-2.0-or-later
 
 Feedstock license: BSD-3-Clause
 
@@ -18,7 +18,21 @@ Current build status
 ====================
 
 
-<table>
+<table><tr>
+    <td>Travis</td>
+    <td>
+      <a href="https://travis-ci.com/conda-forge/libtool-feedstock">
+        <img alt="macOS" src="https://img.shields.io/travis/com/conda-forge/libtool-feedstock/master.svg?label=macOS">
+      </a>
+    </td>
+  </tr><tr>
+    <td>Drone</td>
+    <td>
+      <a href="https://cloud.drone.io/conda-forge/libtool-feedstock">
+        <img alt="linux" src="https://img.shields.io/drone/build/conda-forge/libtool-feedstock/master.svg?label=Linux">
+      </a>
+    </td>
+  </tr>
     
   <tr>
     <td>Azure</td>
