@@ -12,9 +12,11 @@ source:
     # See: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=347650
     # and: https://sigquit.wordpress.com/2011/02/16/why-asneeded-doesnt-work-as-expected-for-your-libraries-on-your-autotools-project/
     - 0001-link-as-needed.patch
+    - 0002-apple-silicon.patch
+    - 0003-apple-silicon.patch
 
 build:
-  number: 1002
+  number: 1003
   skip: True  # [win]
 
 requirements:
@@ -32,7 +34,8 @@ test:
 
 about:
   home: http://www.gnu.org/software/libtool/
-  license: GPL-3.0
+  license: GPL-2.0-or-later
+  license_file: COPYING
   summary: The GNU Portable Library Tool
   description: |
     GNU libtool is a generic library support script. Libtool hides the
