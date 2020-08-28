@@ -16,7 +16,7 @@ source:
     - 0003-apple-silicon.patch
 
 build:
-  number: 1004
+  number: 1005
   skip: True  # [win]
 
 requirements:
