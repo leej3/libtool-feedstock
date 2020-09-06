@@ -10,6 +10,7 @@ export RANLIB=$(basename $RANLIB)
 export LTCC=$(basename $CC)
 export LD=$(basename $LD)
 export CC=$(basename $CC)
+export NM=$(basename $NM)
 
 if [[ "$target_platform" == linux* ]]; then
   export OBJDUMP=$(basename $OBJDUMP)
