@@ -44,5 +44,3 @@ if false; then
 fi
 make install
 
-# We can remove this when we start using the new conda-build.
-find $PREFIX -name '*.la' -delete
