@@ -5,9 +5,13 @@ Home: http://www.gnu.org/software/libtool/
 
 Package license: GPL-2.0-or-later
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/libtool-feedstock/blob/master/LICENSE.txt)
 
 Summary: The GNU Portable Library Tool
+
+Development: http://git.savannah.gnu.org/cgit/libtool.git
+
+Documentation: http://www.gnu.org/software/libtool/manual/
 
 GNU libtool is a generic library support script. Libtool hides the
 complexity of using shared libraries behind a consistent, portable
@@ -71,6 +75,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=576&branchName=master">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libtool-feedstock?branchName=master&jobName=osx&configuration=osx_64_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=576&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/libtool-feedstock?branchName=master&jobName=osx&configuration=osx_arm64_" alt="variant">
                 </a>
               </td>
             </tr>
