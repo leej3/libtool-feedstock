@@ -18,10 +18,14 @@ source:
 build:
   number: 1006
   skip: True  # [win]
+  ignore_run_exports:
+    - libstdcxx-ng
+    - libcxx
 
 requirements:
   build:
     - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
     - m4
     - help2man
     - autoconf
