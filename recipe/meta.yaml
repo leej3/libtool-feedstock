@@ -14,7 +14,8 @@ source:
     - 0001-link-as-needed.patch
     - 0002-apple-silicon.patch
     - 0003-apple-silicon.patch
-    - 0004-apple-silicon.patch
+    # This patch is applied after libtool is installed to avoid needing libtool for building libtool
+    # - 0004-apple-silicon.patch
 
 build:
   number: 1007
@@ -32,6 +33,7 @@ requirements:
     - autoconf
     - automake
     - make
+    - patch
 
 test:
   commands:
