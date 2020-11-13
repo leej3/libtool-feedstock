@@ -44,3 +44,5 @@ if false; then
 fi
 make install
 
+cd $PREFIX/share/aclocal
+patch -p1 < $RECIPE_DIR/0004-apple-silicon.patch
