@@ -30,8 +30,10 @@ requirements:
     - {{ compiler('cxx') }}
     - m4
     - help2man
+{% if bootstrapping != 'yes' %}
     - autoconf
     - automake
+{% endif %}
     - make
     - patch
 
