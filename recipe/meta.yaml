@@ -28,14 +28,14 @@ requirements:
   build:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
+{% if bootstrapping != 'yes' %}
     - m4
     - help2man
-{% if bootstrapping != 'yes' %}
     - autoconf
     - automake
-{% endif %}
     - make
     - patch
+{% endif %}
 
 test:
   commands:
